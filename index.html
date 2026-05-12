@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="description" content="Professional portfolio of a video game developer specializing in Unity, Unreal Engine, C# y C++. Experiencie in gameplay.">
+  <meta name="description"
+    content="Professional portfolio of a video game developer specializing in Unity, Unreal Engine, C# y C++. Experiencie in gameplay.">
   <meta name="author" content="Game Developer Portfolio">
   <title>Christopher Alzate | Game Developer Portfolio</title>
   <!-- Google Fonts + Font Awesome 6 -->
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     * {
@@ -53,15 +56,19 @@
     }
 
     @media (max-width: 768px) {
-      .cursor-follower { display: none; }
+      .cursor-follower {
+        display: none;
+      }
     }
 
     ::-webkit-scrollbar {
       width: 8px;
     }
+
     ::-webkit-scrollbar-track {
       background: var(--card-bg);
     }
+
     ::-webkit-scrollbar-thumb {
       background: var(--primary);
       border-radius: 10px;
@@ -558,305 +565,373 @@
         text-align: center;
         padding-top: 6rem;
       }
+
       .hero p {
         margin-left: auto;
         margin-right: auto;
       }
-      .btn-group, .tech-stack {
+
+      .btn-group,
+      .tech-stack {
         justify-content: center;
       }
+
       .contact-grid {
         grid-template-columns: 1fr;
       }
+
       .nav-links {
         gap: 1.2rem;
       }
+
       .container {
         padding: 0 1.5rem;
       }
+
       .section-header h2 {
         font-size: 2rem;
       }
     }
   </style>
 </head>
+
 <body>
 
-<div class="cursor-follower" id="cursor"></div>
+  <div class="cursor-follower" id="cursor"></div>
 
-<header class="header" id="header">
-  <div class="container">
-    <div class="nav">
-      <div class="logo">CADD<span>.ING</span></div>
-      <div class="nav-links">
-        <a href="#home" class="active">Start</a>
-        <a href="#projects">Proyects</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </div>
-  </div>
-</header>
-
-<main>
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="container" style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center;">
-      <div class="hero-content">
-        <div class="hero-badge">
-          <i class="fas fa-code"></i> Game Developer 
-        </div>
-        <h1>Creating <span class="highlight">interactive worlds</span> that inspire</h1>
-        <p>Specialist in Unity, with experience in gameplay development.</p>
-        <div class="btn-group">
-          <a href="#projects" class="btn-primary"><i class="fas fa-arrow-down"></i> See jobs</a>
-          <a href="#contact" class="btn-outline"><i class="fas fa-paper-plane"></i> Hire me</a>
-          <!-- Botón de descarga de CV modificado para usar tu PDF -->
-          <button id="downloadCVBtn" class="btn-cv"><i class="fas fa-file-pdf"></i> Download CV</button>
-        </div>
-        <div class="tech-stack">
-          <span>Unity 3D</span><span>Unreal 5</span><span>C#</span><span>C++</span>
-        </div>
-      </div>
-      <div class="hero-visual">
-        <img src="assets\Img\logodesarrollador.jpg" alt="Game Developer Portrait">
-      </div>
-    </div>
-  </section>
-
-  <!-- Proyectos Destacados -->
-  <section id="projects">
+  <header class="header" id="header">
     <div class="container">
-      <div class="section-header">
-        <h2>Featured projects</h2>
-        <div class="accent-line"></div>
-        <p class="section-sub">Recent works that demonstrate my passion for technical and artistic design</p>
+      <div class="nav">
+        <div class="logo">CADD<span>.ING</span></div>
+        <div class="nav-links">
+          <a href="#home" class="active">Start</a>
+          <a href="#projects">Proyects</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
       </div>
-      <div class="projects-grid">
-        <div class="project-card">
-          <img class="project-img" src="assets\Img\RumboAlaCama.png" alt="Rumbo a la cama">
-          <div class="project-info">
-            <h3>Rumbo a la cama</h3>
-            <p class="project-desc">A child in a surreal dream where gravity doesn't apply. I developed the core mechanics, full GDD, and asset integration to create a unique dreamlike experience.</p>
-            <div class="project-tech"><span>Unity</span><span>C#</span><span>AI</span></div>
-            <div class="project-links"><a href="#"><i class="fab fa-github"></i> Itch.io</a></div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container" style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center;">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fas fa-code"></i> Game Developer
+          </div>
+          <h1>Creating <span class="highlight">interactive worlds</span> that inspire</h1>
+          <p>Specialist in Unity, with experience in gameplay development.</p>
+          <div class="btn-group">
+            <a href="#projects" class="btn-primary"><i class="fas fa-arrow-down"></i> See jobs</a>
+            <a href="#contact" class="btn-outline"><i class="fas fa-paper-plane"></i> Hire me</a>
+            <!-- Botón de descarga de CV modificado para usar tu PDF -->
+            <button id="downloadCVBtn" class="btn-cv"><i class="fas fa-file-pdf"></i> Download CV</button>
+          </div>
+          <div class="tech-stack">
+            <span>Unity 3D</span><span>Unreal 5</span><span>C#</span><span>C++</span>
           </div>
         </div>
-        <div class="project-card">
-          <img class="project-img" src="assets\Img\dreamfigth.png" alt="Dream Fighter">
-          <div class="project-info">
-            <h3>Dream Fighter</h3>
-            <p class="project-desc">A 3D cartoon-style game where a kid in pajamas battles plushie that come to life at night. Fast-paced shooting action with a playful, whimsical aesthetic.</p>
-            <div class="project-tech"><span>Unity</span><span>Shooter Mechanics</span><span>Character Design</span></div>
-            <div class="project-links"><a href="#"><i class="fab fa-github"></i> Itch.io</a></div>
+        <div class="hero-visual">
+          <img src="assets\Img\logodesarrollador.jpg" alt="Game Developer Portrait">
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos Destacados -->
+    <!-- Proyectos Destacados -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured projects</h2>
+          <div class="accent-line"></div>
+          <p class="section-sub">
+            Recent works that demonstrate my passion for technical and artistic design
+          </p>
+        </div>
+
+        <div class="projects-grid"> <!-- ✅ ABRE GRID -->
+
+          <!-- PROYECTO 1 -->
+          <div class="project-card">
+            <img class="project-img" src="assets/Img/RumboAlaCama.png" alt="Rumbo a la cama">
+            <div class="project-info">
+              <h3>Rumbo a la cama</h3>
+              <p class="project-desc">
+                A child in a surreal dream where gravity doesn't apply...
+              </p>
+              <div class="project-tech">
+                <span>Unity</span><span>C#</span><span>AI</span>
+              </div>
+              <div class="project-links">
+                <a href="https://chrisk8.itch.io/" target="_blank">
+                  <i class="fab fa-itch-io"></i> Itch.io
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROYECTO 2 -->
+          <div class="project-card">
+            <img class="project-img" src="assets/Img/OrbeRush.jpeg" alt="Dream Fighter">
+            <div class="project-info">
+              <h3>Dream Fighter</h3>
+              <p class="project-desc">A 3D cartoon-style game...</p>
+              <div class="project-tech">
+                <span>Unity</span><span>Shooter Mechanics</span><span>Character Design</span>
+              </div>
+              <div class="project-links">
+                <a href="https://chrisk8.itch.io/" target="_blank">
+                  <i class="fab fa-itch-io"></i> Itch.io
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROYECTO 3 -->
+          <div class="project-card">
+            <img class="project-img" src="assets/Img/carcarrer.png" alt="Road Rush">
+            <div class="project-info">
+              <h3>Road Rush: Bus Dodger</h3>
+              <p class="project-desc">A fast-paced 2D arcade game...</p>
+              <div class="project-tech">
+                <span>Unity</span><span>ProBuilder</span><span>UI Toolkit</span>
+              </div>
+              <div class="project-links">
+                <a href="#">
+                  <i class="fab fa-itch-io"></i> Itch.io
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- ✅ CIERRA GRID -->
+      </div>
+    </section>
+
+    <!-- Habilidades Técnicas -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2>Skills</h2>
+          <div class="accent-line"></div>
+          <p class="section-sub">Engines, languages, and tools that I master</p>
+        </div>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3>🎮 Engines</h3>
+            <div class="skill-items"><span>Unity</span><span>Unreal </span><span>Godot</span></div>
+          </div>
+          <div class="skill-category">
+            <h3>⚙️ Languages</h3>
+            <div class="skill-items"><span>C#</span><span>C++</span><span>Blueprint</span></div>
+          </div>
+          <div class="skill-category">
+            <h3>🛠️ Tools</h3>
+            <div class="skill-items"><span>Git</span><span>Photoshop</span></div>
           </div>
         </div>
-        <div class="project-card">
-          <img class="project-img" src="assets\Img\carcarrer.png" alt="Road Rush: Bus Dodger">
-          <div class="project-info">
-            <h3>Road Rush: Bus Dodger</h3>
-            <p class="project-desc">A fast-paced 2D arcade game where a tiny car must weave through traffic and avoid buses on a busy highway. Simple controls, endless challenge.</p>
-            <div class="project-tech"><span>Unity</span><span>ProBuilder</span><span>UI Toolkit</span></div>
-            <div class="project-links"><a href="#"><i class="fab fa-itch-io"></i> Itch.io</a></div>
+      </div>
+    </section>
+
+    <!-- Experiencia profesional -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-header">
+          <h2>Professional career</h2>
+          <div class="accent-line"></div>
+          <p class="section-sub">Creating interactive experiences with Unity and C#</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>Unity Developer · Personal Projects</h3>
+            <div class="timeline-date"><i class="far fa-calendar-alt"></i> 2026 — Present</div>
+            <p>Complete game development in Unity 2D and 3D. Implementation of gravity mechanics, shooting systems,
+              basic AI for enemies, custom physics, and scoring systems. Creation of a Game Design Document (GDD) from
+              initial concept to playable prototype.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>what i can do</h3>
+            <div class="timeline-date"><i class="far fa-calendar-alt"></i> 2026 — Present</div>
+            <p>Unity · C# · Game Design · Functional Prototypes</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Development of mechanics in Unity</h3>
+            <div class="timeline-date"><i class="fas fa-graduation-cap"></i>Implement in projects</div>
+            <p>Creation of reverse gravity systems (Road to Bed), a 3D shooter with fluid controls (Pajama Warrior), and
+              a 2D arcade game with procedurally generated obstacles (Road Rush). Expertise in physics, collision
+              detection, and character control.</p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Habilidades Técnicas -->
-  <section id="skills">
-    <div class="container">
-      <div class="section-header">
-        <h2>Skills</h2>
-        <div class="accent-line"></div>
-        <p class="section-sub">Engines, languages, and tools that I master</p>
-      </div>
-      <div class="skills-container">
-        <div class="skill-category"><h3>🎮 Engines</h3><div class="skill-items"><span>Unity</span><span>Unreal </span><span>Godot</span></div></div>
-        <div class="skill-category"><h3>⚙️ Languages</h3><div class="skill-items"><span>C#</span><span>C++</span><span>Blueprint</span></div></div>
-        <div class="skill-category"><h3>🛠️ Tools</h3><div class="skill-items"><span>Git</span><span>Photoshop</span></div></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Experiencia profesional -->
-  <section id="experience">
-    <div class="container">
-      <div class="section-header">
-        <h2>Professional career</h2>
-        <div class="accent-line"></div>
-        <p class="section-sub">Creating interactive experiences with Unity and C#</p>
-      </div>
-      <div class="timeline">
-        <div class="timeline-item"><h3>Unity Developer · Personal Projects</h3><div class="timeline-date"><i class="far fa-calendar-alt"></i> 2026 — Present</div><p>Complete game development in Unity 2D and 3D. Implementation of gravity mechanics, shooting systems, basic AI for enemies, custom physics, and scoring systems. Creation of a Game Design Document (GDD) from initial concept to playable prototype.</p></div>
-        <div class="timeline-item"><h3>what i can do</h3><div class="timeline-date"><i class="far fa-calendar-alt"></i> 2026 — Present</div><p>Unity · C# · Game Design · Functional Prototypes</p></div>
-        <div class="timeline-item"><h3>Development of mechanics in Unity</h3><div class="timeline-date"><i class="fas fa-graduation-cap"></i>Implement in projects</div><p>Creation of reverse gravity systems (Road to Bed), a 3D shooter with fluid controls (Pajama Warrior), and a 2D arcade game with procedurally generated obstacles (Road Rush). Expertise in physics, collision detection, and character control.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contacto -->
-  <section id="contact">
-    <div class="container">
-      <div class="section-header">
-        <h2>Let's talk about your next game</h2>
-        <div class="accent-line"></div>
-        <p class="section-sub">Do you have an idea? I'm just a message away</p>
-      </div>
-      <div class="contact-grid">
-        <div class="contact-info">
-          <h3>let's connect</h3>
-          <p>I'm available for collaborations, freelance projects, or simply networking. I respond within 24 hours.</p>
-          <div class="contact-detail"><i class="fas fa-envelope"></i> <span>cadding.alz@gmail.com</span></div>
-          <div class="contact-detail"><i class="fab fa-discord"></i> <span>osirisinmortal.#5095</span></div>
-          <div class="social-icons">
-            <a href="https://github.com/osirisinmortal"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/christopher-alzate/"><i class="fab fa-linkedin-in"></i></a>
+    <!-- Contacto -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Let's talk about your next game</h2>
+          <div class="accent-line"></div>
+          <p class="section-sub">Do you have an idea? I'm just a message away</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>let's connect</h3>
+            <p>I'm available for collaborations, freelance projects, or simply networking. I respond within 24 hours.
+            </p>
+            <div class="contact-detail"><i class="fas fa-envelope"></i> <span>cadding.alz@gmail.com</span></div>
+            <div class="contact-detail"><i class="fab fa-discord"></i> <span>osirisinmortal.#5095</span></div>
+            <div class="social-icons">
+              <a href="https://github.com/osirisinmortal"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/christopher-alzate/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm" action="#">
+              <input type="text" placeholder="Full name" required>
+              <input type="email" placeholder="Email address" required>
+              <input type="text" placeholder="Subject / Project">
+              <textarea rows="4" placeholder="Tell me about your idea or opportunity..."></textarea>
+              <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;"><i
+                  class="fas fa-paper-plane"></i> Send message</button>
+            </form>
           </div>
         </div>
-        <div class="contact-form">
-          <form id="contactForm" action="#">
-            <input type="text" placeholder="Full name" required>
-            <input type="email" placeholder="Email address" required>
-            <input type="text" placeholder="Subject / Project">
-            <textarea rows="4" placeholder="Tell me about your idea or opportunity..."></textarea>
-            <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;"><i class="fas fa-paper-plane"></i> Send message</button>
-          </form>
-        </div>
       </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Christopher Alzate — Professional video game development portfolio. Made with <i class="fas fa-heart"
+          style="color: var(--primary);"></i> for the interactive entertainment industry.</p>
+      <p style="margin-top: 0.5rem; font-size: 0.8rem;">"The best code is the one that creates fun"</p>
     </div>
-  </section>
-</main>
+  </footer>
 
-<footer>
-  <div class="container">
-    <p>© 2026 Christopher Alzate — Professional video game development portfolio. Made with <i class="fas fa-heart" style="color: var(--primary);"></i> for the interactive entertainment industry.</p>
-    <p style="margin-top: 0.5rem; font-size: 0.8rem;">"The best code is the one that creates fun"</p>
-  </div>
-</footer>
+  <script>
+    // Sticky header + active nav on scroll
+    const header = document.getElementById('header');
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-links a');
 
-<script>
-  // Sticky header + active nav on scroll
-  const header = document.getElementById('header');
-  const sections = document.querySelectorAll('section');
-  const navLinks = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
 
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 50) {
-      header.classList.add('scrolled');
-    } else {
-      header.classList.remove('scrolled');
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        if (pageYOffset >= sectionTop) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${current}`) {
+          link.classList.add('active');
+        }
+      });
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const href = this.getAttribute('href');
+        if (href === "#" || href === "") return;
+        const target = document.querySelector(href);
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Custom cursor effect
+    const cursor = document.getElementById('cursor');
+    if (window.innerWidth > 768) {
+      document.addEventListener('mousemove', (e) => {
+        cursor.style.opacity = '1';
+        cursor.style.left = e.clientX + 'px';
+        cursor.style.top = e.clientY + 'px';
+      });
+      document.addEventListener('mouseleave', () => {
+        cursor.style.opacity = '0';
+      });
+      document.querySelectorAll('a, button, .project-card').forEach(el => {
+        el.addEventListener('mouseenter', () => {
+          cursor.style.width = '50px';
+          cursor.style.height = '50px';
+          cursor.style.borderColor = 'var(--secondary)';
+        });
+        el.addEventListener('mouseleave', () => {
+          cursor.style.width = '30px';
+          cursor.style.height = '30px';
+          cursor.style.borderColor = 'var(--primary)';
+        });
+      });
     }
 
-    let current = '';
-    sections.forEach(section => {
-      const sectionTop = section.offsetTop - 100;
-      if (pageYOffset >= sectionTop) {
-        current = section.getAttribute('id');
-      }
-    });
-
-    navLinks.forEach(link => {
-      link.classList.remove('active');
-      if (link.getAttribute('href') === `#${current}`) {
-        link.classList.add('active');
-      }
-    });
-  });
-
-  // Smooth scroll
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      const href = this.getAttribute('href');
-      if (href === "#" || href === "") return;
-      const target = document.querySelector(href);
-      if (target) {
+    // Form demo handler
+    const form = document.getElementById('contactForm');
+    if (form) {
+      form.addEventListener('submit', (e) => {
         e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    });
-  });
-
-  // Custom cursor effect
-  const cursor = document.getElementById('cursor');
-  if (window.innerWidth > 768) {
-    document.addEventListener('mousemove', (e) => {
-      cursor.style.opacity = '1';
-      cursor.style.left = e.clientX + 'px';
-      cursor.style.top = e.clientY + 'px';
-    });
-    document.addEventListener('mouseleave', () => {
-      cursor.style.opacity = '0';
-    });
-    document.querySelectorAll('a, button, .project-card').forEach(el => {
-      el.addEventListener('mouseenter', () => {
-        cursor.style.width = '50px';
-        cursor.style.height = '50px';
-        cursor.style.borderColor = 'var(--secondary)';
+        alert("Thank you for your message! I'll get back to you soon.");
+        form.reset();
       });
-      el.addEventListener('mouseleave', () => {
-        cursor.style.width = '30px';
-        cursor.style.height = '30px';
-        cursor.style.borderColor = 'var(--primary)';
-      });
-    });
-  }
+    }
 
-  // Form demo handler
-  const form = document.getElementById('contactForm');
-  if(form) {
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      alert("Thank you for your message! I'll get back to you soon.");
-      form.reset();
-    });
-  }
+    // ============================================
+    // FUNCIÓN MODIFICADA: Descargar CV desde tu PDF existente
+    // CAMBIA EL NOMBRE DEL ARCHIVO según tu PDF (ej: "Mi_CV.pdf")
+    // La ruta asume que el PDF está en la carpeta "portafolio"
+    // ============================================
+    const downloadBtn = document.getElementById('downloadCVBtn');
 
-  // ============================================
-  // FUNCIÓN MODIFICADA: Descargar CV desde tu PDF existente
-  // CAMBIA EL NOMBRE DEL ARCHIVO según tu PDF (ej: "Mi_CV.pdf")
-  // La ruta asume que el PDF está en la carpeta "portafolio"
-  // ============================================
-  const downloadBtn = document.getElementById('downloadCVBtn');
+    function downloadExistingCV() {
+      const nombreDelArchivoCV = "CV.pdf";
+      const rutaPDF = "assets/CV.pdf";
 
-function downloadExistingCV() {
-    const nombreDelArchivoCV = "CV.pdf";
-    const rutaPDF = "assets/CV.pdf";
+      const link = document.createElement('a');
+      link.href = rutaPDF;
+      link.download = nombreDelArchivoCV;
+      link.style.display = 'none';
 
-    const link = document.createElement('a');
-    link.href = rutaPDF;
-    link.download = nombreDelArchivoCV;
-    link.style.display = 'none';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
 
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-}
+    // Manejar el clic del botón
+    downloadBtn.addEventListener('click', (e) => {
+      const originalHTML = downloadBtn.innerHTML;
+      downloadBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Descargando...';
+      downloadBtn.disabled = true;
 
-// Manejar el clic del botón
-downloadBtn.addEventListener('click', (e) => {
-    const originalHTML = downloadBtn.innerHTML;
-    downloadBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Descargando...';
-    downloadBtn.disabled = true;
-    
-    try {
+      try {
         downloadExistingCV();
         setTimeout(() => {
-            downloadBtn.innerHTML = originalHTML;
-            downloadBtn.disabled = false;
+          downloadBtn.innerHTML = originalHTML;
+          downloadBtn.disabled = false;
         }, 1500);
-    } catch (error) {
+      } catch (error) {
         console.error("Error:", error);
         downloadBtn.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Error';
         setTimeout(() => {
-            downloadBtn.innerHTML = originalHTML;
-            downloadBtn.disabled = false;
+          downloadBtn.innerHTML = originalHTML;
+          downloadBtn.disabled = false;
         }, 2000);
         alert("No se pudo encontrar el archivo PDF en la ruta: assets/CV/");
-    }
-});
-</script>
+      }
+    });
+  </script>
 </body>
+
 </html>
